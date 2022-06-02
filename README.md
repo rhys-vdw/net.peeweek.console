@@ -89,7 +89,7 @@ namespace ConsoleUtility
         }
 
         public string name => "mycommand"; 		// the actual command key
-        public string summary => "Does soemthing";	// summary displayed when typing 'help'
+        public string summary => "Does something";	// summary displayed when typing 'help'
         public string help => "usage: mycommand"; 	// help displayed when typing 'help mycommand'
 
         public IEnumerable<Console.Alias> aliases
